@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" -X POST \"https://hook.us1.make.com/ywmulespifg9mnokrz80tqxb3559c0rv\" -H \"Content-Type: application/json\" -d '{\"\"test\"\":\"\"ping\"\",\"\"fuente\"\":\"\"test\"\"}')",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" -X POST \"https://hook.us1.make.com/ywmulespifg9mnokrz80tqxb3559c0rv\" -H \"Content-Type: application/json\" -H \"x-make-apikey: BA3iH3QjgTcovi0lg2OpLI9C6thRzjsp\" -d '{\"\"test\"\":\"\"ping\"\",\"\"fuente\"\":\"\"test\"\"}')",
+      "Bash(node obfuscate.js)",
+      "Bash(rm obfuscate.js)",
+      "Bash(node -e \":*)",
+      "Bash(python -c \"from PIL import Image; print\\(''PIL OK''\\)\")",
+      "Bash(magick --version)",
+      "Bash(node --version)",
+      "Bash(npm list -g sharp)",
+      "Bash(npm list sharp canvas)",
+      "Bash(ls -la \"c:/Users/jdmunera/OneDrive - Seguros Suramericana, S.A/apiqo/PaginaWeb/favicon\"*)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"c:/Users/jdmunera/OneDrive - Seguros Suramericana, S.A/apiqo/PaginaWeb/mkfavicon.ps1\")"
+    ]
+  }
+}
